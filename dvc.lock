@@ -51,7 +51,7 @@ stages:
     params:
       params.yaml:
         model_building.learning_rate: 0.09
-        model_building.max_depth: 20
+        model_building.max_depth: 19
         model_building.max_features: 10000
         model_building.n_estimators: 367
         model_building.ngram_range:
@@ -60,8 +60,8 @@ stages:
     outs:
     - path: lgbm_model.pkl
       hash: md5
-      md5: 4cdd0f09dc65201f4a1c862509ee9ea7
-      size: 4116885
+      md5: b2e64c32b2077d593632fc1ffd4b672d
+      size: 4091802
     - path: tfidf_vectorizer.pkl
       hash: md5
       md5: 45dbe9d21f09ceaedfc974c6af702908
