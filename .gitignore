@@ -90,3 +90,5 @@ target/
 
 # my vitual environment
 myenv/
+/lgbm_model.pkl
+/tfidf_vectorizer.pkl
