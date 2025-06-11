@@ -162,8 +162,8 @@ def main():
             mlflow.sklearn.log_model(
                 model,
                 "lgbm_model",
-                signature=signature,  # <--- Added for signature
-                input_example=input_example  # <--- Added input example
+                signature=signature,  #  Added for signature
+                input_example=input_example  #  Added input example
             )
 
             # Save model info
