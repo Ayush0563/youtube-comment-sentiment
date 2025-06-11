@@ -82,4 +82,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: us-east-1
         run: |
-          pytest scripts/test_model_signature.py
+          pytest Sripts/test_model_signature.py
