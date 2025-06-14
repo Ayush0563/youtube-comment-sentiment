@@ -1,7 +1,7 @@
 Youtube-Comment-Sentiment
 ==============================
 
-Bulding Chrome Plugin analyze YouTube comment sentiments
+Bulding Chrome Plugin to analyze YouTube comment sentiments.
 
 Project Organization
 ------------
